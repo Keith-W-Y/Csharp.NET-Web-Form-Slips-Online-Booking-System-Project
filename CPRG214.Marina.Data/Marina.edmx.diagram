@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eaece5e9eb0f4c0cb3c5737bb28fb90c" Name="Diagram1">
+        <EntityTypeShape EntityType="MarinaModel.Customer" Width="1.5" PointX="2.875" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarinaModel.Dock" Width="1.5" PointX="0.625" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarinaModel.Lease" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarinaModel.Slip" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="MarinaModel.FK_LeaseCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="MarinaModel.FK_SlipDock" ManuallyRouted="false" />
+        <AssociationConnector Association="MarinaModel.FK_LeaseSlip" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
